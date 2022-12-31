@@ -23,3 +23,13 @@ for(let dam in obj){
 }
 
 obj.forEach(el=>console.log(el))
+
+
+// weak set
+let ws =new WeakSet()
+var ob1={'name':'ashwin'}
+// var ob2={}
+
+ws.add(ob1)
+// ws.add(ob2)
+console.log(ws,ws.has(ob1));
